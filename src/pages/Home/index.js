@@ -5,6 +5,11 @@ import Header from '../../components/Header';
 import wppIcon from '../../assets/wpp-icon.png';
 import '../../styles/pages/home.css';
 
+// Imagens dos produtos
+import altoFalante01 from '../../vendas-images/alto-falante-eros-01.jpg';
+
+
+// ========================================================================
 const Home = () => {
   return (
     <div className="home-container">
@@ -13,11 +18,11 @@ const Home = () => {
       <div className="landing-content">
         <div id="wpp-link-container">
           <img id="wpp-icon" src={wppIcon} alt="whatsapp"/>
-          <a href={`https://google.com`}>91 9 9999-9999</a>
-          {/* <a href={`https://wa.me/+5591982444207`}>91 9 8244-4207</a> */}
+          {/* <a href={`https://google.com`}>91 9 9999-9999</a> */}
+          <a href={`https://wa.me/+5591982444207`}>91 9 8244-4207</a>
         </div>
         
-        <span className="typing">Consertos e vendas de alto falantes🔊</span>
+        <span className="typing">Conserto e venda de alto-falantes🔊</span>
       </div>
 
       <section id="produtos" name="produtos" className="products">
@@ -25,36 +30,13 @@ const Home = () => {
       </section>
 
       <main className="grid-container">
+        
         <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/09/37/loudspeaker-155807_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
-        <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/11/33/loudspeaker-158394_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
-        <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/09/37/loudspeaker-155807_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
-        <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/11/33/loudspeaker-158394_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
-        <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/09/37/loudspeaker-155807_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
-        <div className="grid-item">
-          <img src="https://cdn.pixabay.com/photo/2013/07/13/11/33/loudspeaker-158394_960_720.png" alt="alto falante"/>
-          <span className="preco">R$: 100</span>
-          <span>Informações sobre este item</span>
-        </div>
+          <img src={altoFalante01} alt="alto falante"/>
+          <span className="preco">R$800</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>      
+       
       </main>
 
       <section id="servicos" name="servicos" className="services">
@@ -79,15 +61,11 @@ const Home = () => {
       
       <div className="sobre-content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Ullam cumque at illum, tempore recusandae vitae. 
-          Tempore quae, eligendi illum ullam praesentium assumenda. 
-          Veniam illum voluptatem earum asperiores, aspernatur aperiam similique.
-          {'\n'}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Ullam cumque at illum, tempore recusandae vitae. 
-          Tempore quae, eligendi illum ullam praesentium assumenda. 
-          Veniam illum voluptatem earum asperiores, aspernatur aperiam similique.
+          Paulo Som, localizado no bairro do aurá - Anita Gerosa, em Ananindeua, 
+          possui mais de 25 anos de experiência em manutenção de alto-falantes, ST, H10,
+          construção de caixas de som e peças relacionados.
+          Se você mora em ananindeua ou região e está com problema em um dos seus aparelhos,
+          entre em contato via <a href={`https://wa.me/+5591982444207`}>WhatsApp</a> para mais informações.
         </p>
       </div>
 
