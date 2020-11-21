@@ -13,7 +13,8 @@ const Home = () => {
       <div className="landing-content">
         <div id="wpp-link-container">
           <img id="wpp-icon" src={wppIcon} alt="whatsapp"/>
-          <a href={`https://wa.me/+5591983659681`}>91 9 9999-9999</a>
+          <a href={`https://google.com`}>91 9 9999-9999</a>
+          {/* <a href={`https://wa.me/+5591982444207`}>91 9 8244-4207</a> */}
         </div>
         
         <span className="typing">Consertos e vendas de alto falantes🔊</span>
