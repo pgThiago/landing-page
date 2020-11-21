@@ -65,7 +65,8 @@ const Home = () => {
           possui mais de 25 anos de experiência em manutenção de alto-falantes, ST, H10,
           construção de caixas de som e peças relacionadas.
           Se você mora em ananindeua ou região e está com problema em um dos seus aparelhos,
-          entre em contato via <a href={`https://wa.me/+5591982444207`}>WhatsApp</a> para mais informações.
+          entre em contato via <a href={`https://google.com`}>WhatsApp</a> para mais informações.
+          {/* entre em contato via <a href={`https://wa.me/+5591982444207`}>WhatsApp</a> para mais informações. */}
         </p>
       </div>
 
