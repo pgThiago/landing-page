@@ -20,6 +20,7 @@
         height: 100%;
 
         background-color: #1B1D20;
+        border-bottom-left-radius: 50em;
 
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
         animation: slideLef 30s;
@@ -177,10 +178,10 @@
         height: 100%;
 
         background-color: #1B1D20;
-        border-top-left-radius: 20px;
+        border-bottom-left-radius: 50em;
 
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-        animation: slideLef 5s;
+        animation: slideLef 30s;
 
     }
 
@@ -337,8 +338,7 @@
         height: 100%;
 
         background-color: #1B1D20;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 50em;
 
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
         animation: slideLef 30s;
