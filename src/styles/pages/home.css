@@ -167,23 +167,9 @@
     
     .home-container .grid-container .grid-item .preco {
         margin-top: 40px;
-        color: #F0F0F4;
-        font-size: 50px;
+        color: #4CAF50;
+        font-size: 40px;
         font-weight: 600;
-        animation: pricePulse 5s infinite;
-    }
-
-    @keyframes pricePulse {
-        0%{
-            font-size: 0em;
-        }
-        50%{
-            font-size: 3em;
-        }
-        
-        100%{
-            font-size: 0em;
-        }
     }
 
     .home-container .services {
@@ -487,23 +473,9 @@
     
     .home-container .grid-container .grid-item .preco {
         margin-top: 40px;
-        color: #F0F0F4;
-        font-size: 50px;
+        color: #4CAF50;
+        font-size: 40px;
         font-weight: 600;
-        animation: pricePulse 5s infinite;
-    }
-
-    @keyframes pricePulse {
-        0%{
-            font-size: 0em;
-        }
-        50%{
-            font-size: 3em;
-        }
-        
-        100%{
-            font-size: 0em;
-        }
     }
 
     .home-container .services {
@@ -806,23 +778,9 @@
     
     .home-container .grid-container .grid-item .preco {
         margin-top: 40px;
-        color: #F0F0F4;
-        font-size: 50px;
+        color: #4CAF50;
+        font-size: 40px;
         font-weight: 600;
-        animation: pricePulse 5s infinite;
-    }
-    
-    @keyframes pricePulse {
-        0%{
-            font-size: 0em;
-        }
-        50%{
-            font-size: 3em;
-        }
-        
-        100%{
-            font-size: 0em;
-        }
     }
     
     .home-container .services {

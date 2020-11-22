@@ -33,7 +33,17 @@ const Home = () => {
         
         <div className="grid-item">
           <img src={altoFalante01} alt="alto falante"/>
-          <span className="preco">R$800</span>
+          <span className="preco">R$800,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div> 
+        <div className="grid-item">
+          <img src={altoFalante01} alt="alto falante"/>
+          <span className="preco">R$800,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div> 
+        <div className="grid-item">
+          <img src={altoFalante01} alt="alto falante"/>
+          <span className="preco">R$800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>      
        
