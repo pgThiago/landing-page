@@ -74,11 +74,11 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100%, -100vh);
+            transform: translate(100vw, -100vh);
           }        
         to {
-            transform: translate(-100%, 50vh);
-        } 
+            transform: translate(-100vw, 100vh);
+        }  
     }
     
     .home-container .products {    
@@ -362,11 +362,11 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100%, -100vh);
+            transform: translate(100vw, -100vh);
           }        
         to {
-            transform: translate(-100%, 50vh);
-        }
+            transform: translate(-100vw, 100vh);
+        } 
     }
     
     .home-container .products {    
@@ -647,11 +647,11 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100%, -100vh);
+            transform: translate(100vw, -100vh);
           }        
         to {
-            transform: translate(-100%, 50vh);
-        } 
+            transform: translate(-100vw, 100vh);
+        }  
     }
     
     .home-container .products {    
@@ -937,11 +937,11 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100%, -100vh);
+            transform: translate(100vw, -100vh);
           }        
         to {
-            transform: translate(-100%, 50vh);
-        } 
+            transform: translate(-100vw, 100vh);
+        }  
     }
     
     .home-container .products {    
@@ -1232,10 +1232,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100%, -100vh);
+            transform: translate(100vw, -100vh);
           }        
         to {
-            transform: translate(-100%, 50vh);
+            transform: translate(-100vw, 100vh);
         } 
     }
     
