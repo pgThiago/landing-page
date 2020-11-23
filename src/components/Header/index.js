@@ -7,7 +7,7 @@ import xButton from '../../assets/x.png';
 
 const Header = () => {
 
-  const [ toggleMenuBoolean, setToggleMenu ] = useState(true);
+  const [ toggleMenuBoolean, setToggleMenu ] = useState(false);
   
   function toggleMenu() {
     setToggleMenu(!toggleMenuBoolean);
