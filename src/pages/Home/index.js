@@ -8,11 +8,10 @@ import '../../styles/pages/home.css';
 // Imagens dos produtos
 import altoFalante01 from '../../vendas-images/alto-falante-eros-01.jpg';
 
-
 // ========================================================================
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" >
       <Header />
 
       <div className="landing-content">
@@ -33,19 +32,24 @@ const Home = () => {
         
         <div className="grid-item">
           <img src={altoFalante01} alt="alto falante"/>
-          <span className="preco">R$800,00</span>
+          <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
           <img src={altoFalante01} alt="alto falante"/>
-          <span className="preco">R$800,00</span>
+          <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
           <img src={altoFalante01} alt="alto falante"/>
-          <span className="preco">R$800,00</span>
+          <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>      
+        <div className="grid-item">
+          <img src={altoFalante01} alt="alto falante"/>
+          <span className="preco">R$ 800,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
        
       </main>
 
@@ -83,8 +87,13 @@ const Home = () => {
       </div>
 
       <footer>
-        <p> &copy; Paulo Som</p>
-        <p>Todos os direitos reservados.</p>
+        <div className="direitos-container">
+          <div className="direitos">
+            <p> &copy; Paulo Som</p>
+            <p>Todos os direitos reservados</p>
+          </div>
+          <p>Desenvolvido por <a href="https://github.com/pgthiago">Thiago Silva</a> </p>
+        </div>
       </footer>
     </div>
   );
