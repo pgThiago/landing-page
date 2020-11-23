@@ -21,7 +21,7 @@ const Home = () => {
           {/* <a href={`https://wa.me/+5591982444207`}>91 9 8244-4207</a> */}
         </div>
         
-        <span className="typing">Conserto e venda de alto-falantes🔊</span>
+        <span className="typing">Conserto e venda de alto-falantes</span>
       </div>
 
       <section id="produtos" name="produtos" className="products">
@@ -31,22 +31,22 @@ const Home = () => {
       <main className="grid-container">
         
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto falante"/>
+          <img src={altoFalante01} alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto falante"/>
+          <img src={altoFalante01} alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto falante"/>
+          <img src={altoFalante01} alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>      
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto falante"/>
+          <img src={altoFalante01} alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>

@@ -74,10 +74,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(650px, 0);
+            transform: translate(100%, -100vh);
           }        
         to {
-            transform: translate(-650px, 0);
+            transform: translate(-100%, 50vh);
         } 
     }
     
@@ -238,8 +238,8 @@
 
     .home-container .sobre-content p > a {
         text-decoration: none;
+        color: #5928B1;
         font-size: 25px;
-        color:#F0F0F4;
     }
     
     footer .direitos-container {
@@ -362,11 +362,11 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(650px, 0);
+            transform: translate(100%, -100vh);
           }        
         to {
-            transform: translate(-650px, 0);
-        } 
+            transform: translate(-100%, 50vh);
+        }
     }
     
     .home-container .products {    
@@ -526,8 +526,8 @@
 
     .home-container .sobre-content p > a {
         text-decoration: none;
+        color: #5928B1;
         font-size: 25px;
-        color:#F0F0F4;
     }
     
     footer .direitos-container {
@@ -647,10 +647,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(650px, 0);
+            transform: translate(100%, -100vh);
           }        
         to {
-            transform: translate(-650px, 0);
+            transform: translate(-100%, 50vh);
         } 
     }
     
@@ -811,8 +811,8 @@
 
     .home-container .sobre-content p > a {
         text-decoration: none;
+        color: #5928B1;
         font-size: 25px;
-        color:#F0F0F4;
     }
     
     footer .direitos-container {
@@ -937,10 +937,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(1200px, 0);
+            transform: translate(100%, -100vh);
           }        
         to {
-            transform: translate(-1200px, 0);
+            transform: translate(-100%, 50vh);
         } 
     }
     
@@ -1103,8 +1103,8 @@
 
     .home-container .sobre-content p > a {
         text-decoration: none;
+        color: #5928B1;
         font-size: 25px;
-        color:#F0F0F4;
     }
 
     footer .direitos-container {
@@ -1232,10 +1232,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(1200px, 0);
+            transform: translate(100%, -100vh);
           }        
         to {
-            transform: translate(-1200px, 0);
+            transform: translate(-100%, 50vh);
         } 
     }
     
@@ -1397,8 +1397,8 @@
 
     .home-container .sobre-content p > a {
         text-decoration: none;
+        color: #5928B1;
         font-size: 25px;
-        color:#F0F0F4;
     }
 
     footer .direitos-container {
@@ -1435,8 +1435,8 @@
     footer .direitos-container > p > a {
         text-decoration: none;
         border-bottom: 1px solid #5928B1;
-        font-size: 20px;
         color: #5928B1;
+        font-size: 20px;
     }
 
     footer .direitos-container .direitos > * {
