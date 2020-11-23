@@ -216,7 +216,7 @@
     
     .home-container .sobre-content {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         width: 95%;
@@ -265,6 +265,13 @@
     footer .direitos-container > p {
         font-size: 20px;
         color: #F0F0F4;
+    }
+
+    footer .direitos-container > p > a {
+        text-decoration: none;
+        border-bottom: 1px solid #5928B1;
+        font-size: 20px;
+        color: #5928B1;
     }
 
     footer .direitos-container .direitos > * {
@@ -495,7 +502,7 @@
     
     .home-container .sobre-content {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         width: 95%;
@@ -544,6 +551,13 @@
     footer .direitos-container > p {
         font-size: 20px;
         color: #F0F0F4;
+    }
+
+    footer .direitos-container > p > a {
+        text-decoration: none;
+        border-bottom: 1px solid #5928B1;
+        font-size: 20px;
+        color: #5928B1;
     }
 
     footer .direitos-container .direitos > * {
@@ -771,7 +785,7 @@
     
     .home-container .sobre-content {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         width: 95%;
@@ -820,6 +834,13 @@
     footer .direitos-container > p {
         font-size: 20px;
         color: #F0F0F4;
+    }
+
+    footer .direitos-container > p > a {
+        text-decoration: none;
+        border-bottom: 1px solid #5928B1;
+        font-size: 20px;
+        color: #5928B1;
     }
 
     footer .direitos-container .direitos > * {
@@ -1053,7 +1074,7 @@
     
     .home-container .sobre-content {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
 
@@ -1108,6 +1129,13 @@
         font-size: 20px;
         color: #F0F0F4;
         margin-right: 20%;        
+    }
+
+    footer .direitos-container > p > a {
+        text-decoration: none;
+        border-bottom: 1px solid #5928B1;
+        font-size: 20px;
+        color: #5928B1;
     }
 
     footer .direitos-container .direitos > * {
@@ -1394,6 +1422,13 @@
         font-size: 20px;
         color: #F0F0F4;
         margin-right: 20%;        
+    }
+
+    footer .direitos-container > p > a {
+        text-decoration: none;
+        border-bottom: 1px solid #5928B1;
+        font-size: 20px;
+        color: #5928B1;
     }
 
     footer .direitos-container .direitos > * {
