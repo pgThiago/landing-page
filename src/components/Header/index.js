@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import '../../styles/components/header.css';
 import logoImg from '../../assets/logo.png';
-import hamburguerButton from '../../assets/menu.jpg';
+import hamburguerButton from '../../assets/menu.png';
 import xButton from '../../assets/x.png';
 
 const Header = () => {
