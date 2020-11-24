@@ -61,23 +61,24 @@
     }
     
     .home-container .landing-content .typing {
+        text-align: center;
+        width: 100vw;
         letter-spacing: 1px;    
         color:#F0F0F4;
-        font-size: 30px; 
-    
+        font-size: 16px; 
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     
-        animation: typewriter 10s linear infinite;
+        animation: typewriter 30s linear infinite;
         overflow: hidden;
         white-space: nowrap;
     }
     
     @keyframes typewriter {
         from {
-            transform: translate(100vw, -100vh);
+            transform: translate(0, -150vh);
           }        
         to {
-            transform: translate(-100vw, 100vh);
+            transform: translate(0, 100vh);
         }  
     }
     
@@ -349,23 +350,25 @@
     }
     
     .home-container .landing-content .typing {
+        text-align: center;
+        width: 100vw;
         letter-spacing: 1px;    
         color:#F0F0F4;
-        font-size: 40px; 
+        font-size: 30px; 
     
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     
-        animation: typewriter 10s linear infinite;
+        animation: typewriter 30s linear infinite;
         overflow: hidden;
         white-space: nowrap;
     }
     
     @keyframes typewriter {
         from {
-            transform: translate(100vw, -100vh);
+            transform: translate(0, -150vh);
           }        
         to {
-            transform: translate(-100vw, 100vh);
+            transform: translate(0, 100vh);
         } 
     }
     
@@ -634,23 +637,25 @@
     }
     
     .home-container .landing-content .typing {
-        letter-spacing: 1px;    
+        text-align: center;
+        letter-spacing: 1px;  
+        width: 100vw;
         color:#F0F0F4;
         font-size: 50px; 
     
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     
-        animation: typewriter 10s linear infinite;
+        animation: typewriter 30s linear infinite;
         overflow: hidden;
         white-space: nowrap;
     }
     
     @keyframes typewriter {
         from {
-            transform: translate(100vw, -100vh);
+            transform: translate(0, -150vh);
           }        
         to {
-            transform: translate(-100vw, 100vh);
+            transform: translate(0, 100vh);
         }  
     }
     
@@ -923,13 +928,15 @@
     }
     
     .home-container .landing-content .typing { 
-        letter-spacing: 1px;       
+        text-align: center;
+        letter-spacing: 1px;   
+        width: 100vw;
         color:#F0F0F4;
         font-size: 50px; 
     
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     
-        animation: typewriter 10s linear infinite;
+        animation: typewriter 30s linear infinite;
         overflow: hidden;
         white-space: nowrap;
         
@@ -937,10 +944,10 @@
     
     @keyframes typewriter {
         from {
-            transform: translate(100vw, -100vh);
+            transform: translate(0, -150vh);
           }        
         to {
-            transform: translate(-100vw, 100vh);
+            transform: translate(0, 100vh);
         }  
     }
     
@@ -1217,25 +1224,25 @@
     }
     
     .home-container .landing-content .typing {
-        letter-spacing: 1px;    
-    
+        text-align: center;
+        letter-spacing: 1px; 
+        width: 100vw;
         color:#F0F0F4;
-        font-size: 60px; 
+        font-size: 50px; 
     
         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     
-        animation: typewriter 10s linear infinite;
+        animation: typewriter 30s linear infinite;
         overflow: hidden;
         white-space: nowrap;
-        
     }
     
     @keyframes typewriter {
         from {
-            transform: translate(100vw, -100vh);
+            transform: translate(0, -150vh);
           }        
         to {
-            transform: translate(-100vw, 100vh);
+            transform: translate(0, 100vh);
         } 
     }
     
