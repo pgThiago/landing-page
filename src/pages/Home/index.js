@@ -5,11 +5,9 @@ import Header from '../../components/Header';
 import wppIcon from '../../assets/wpp-icon.png';
 import '../../styles/pages/home.css';
 
-// Imagens dos produtos
-import altoFalante01 from '../../vendas-images/alto-falante-eros-01.jpg';
-
 // ========================================================================
 const Home = () => {
+  const [ims, setImages] = useState("");
   return (
     <div className="home-container" >
       <Header />
@@ -18,7 +16,6 @@ const Home = () => {
         <div id="wpp-link-container">
           <img id="wpp-icon" src={wppIcon} alt="whatsapp"/>
           <a href={`https://google.com`}>91 9 9999-9999</a>
-          {/* <a href={`https://wa.me/+5591982444207`}>91 9 8244-4207</a> */}
         </div>
         
         <span className="typing">Conserto e venda de alto-falantes</span>
@@ -31,22 +28,22 @@ const Home = () => {
       <main className="grid-container">
         
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto-falante"/>
+          <img src="https://picsum.photos/200/300?random=1" alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto-falante"/>
+          <img src="https://picsum.photos/200/300?random=2" alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto-falante"/>
+          <img src="https://picsum.photos/200/300?random=3" alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>      
         <div className="grid-item">
-          <img src={altoFalante01} alt="alto-falante"/>
+          <img src="https://picsum.photos/200/300?random=4" alt="alto-falante"/>
           <span className="preco">R$ 800,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>
