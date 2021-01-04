@@ -7,7 +7,6 @@ import '../../styles/pages/home.css';
 
 // ========================================================================
 const Home = () => {
-  const [ims, setImages] = useState("");
   return (
     <div className="home-container" >
       <Header />
@@ -28,23 +27,23 @@ const Home = () => {
       <main className="grid-container">
         
         <div className="grid-item">
-          <img src="https://picsum.photos/200/300?random=1" alt="alto-falante"/>
-          <span className="preco">R$ 800,00</span>
+          <img src="https://picsum.photos/500/500?random=1" alt="alto-falante"/>
+          <span className="preco">R$ 500,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src="https://picsum.photos/200/300?random=2" alt="alto-falante"/>
-          <span className="preco">R$ 800,00</span>
+          <img src="https://picsum.photos/500/500?random=2" alt="alto-falante"/>
+          <span className="preco">R$ 1000,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div> 
         <div className="grid-item">
-          <img src="https://picsum.photos/200/300?random=3" alt="alto-falante"/>
-          <span className="preco">R$ 800,00</span>
+          <img src="https://picsum.photos/500/500?random=3" alt="alto-falante"/>
+          <span className="preco">R$ 1500,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>      
         <div className="grid-item">
-          <img src="https://picsum.photos/200/300?random=4" alt="alto-falante"/>
-          <span className="preco">R$ 800,00</span>
+          <img src="https://picsum.photos/500/500?random=4" alt="alto-falante"/>
+          <span className="preco">R$ 2000,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>
        
