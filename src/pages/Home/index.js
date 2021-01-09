@@ -46,6 +46,66 @@ const Home = () => {
           <span className="preco">R$ 2000,00</span>
           <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
         </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=5" alt="alto-falante"/>
+          <span className="preco">R$ 2500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=6" alt="alto-falante"/>
+          <span className="preco">R$ 3000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=7" alt="alto-falante"/>
+          <span className="preco">R$ 3500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=8" alt="alto-falante"/>
+          <span className="preco">R$ 4000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=9" alt="alto-falante"/>
+          <span className="preco">R$ 4500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=10" alt="alto-falante"/>
+          <span className="preco">R$ 5000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=11" alt="alto-falante"/>
+          <span className="preco">R$ 5500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=12" alt="alto-falante"/>
+          <span className="preco">R$ 6000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=13" alt="alto-falante"/>
+          <span className="preco">R$ 7500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=14" alt="alto-falante"/>
+          <span className="preco">R$ 8000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=15" alt="alto-falante"/>
+          <span className="preco">R$ 8500,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
+        <div className="grid-item">
+          <img src="https://picsum.photos/500/500?random=16" alt="alto-falante"/>
+          <span className="preco">R$ 9000,00</span>
+          <span>Alto-falantes Eros, 12 polegadas, 4hm, automotivo, 800RMS.</span>
+        </div>
        
       </main>
 
