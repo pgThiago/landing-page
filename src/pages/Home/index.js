@@ -138,7 +138,6 @@ const Home = () => {
         <p>
           Se você mora em ananindeua ou região e está com problemas em seus aparelhos,
           entre em contato via <a href={`https://google.com`}>WhatsApp</a>, vamos conversar.
-          {/* entre em contato via <a href={`https://wa.me/+5591982444207`}>WhatsApp</a> para mais informações. */}
         </p>
       </div>
 
